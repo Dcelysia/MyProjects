@@ -34,3 +34,6 @@ npm run serve
 之后弹出网址ctrl+单击便可以打开
 
 tip:先启动后端在启动前端！！
+
+由于前端视频过大不能上传到github上面，所有所有前端代码将需要到百度网盘上下载链接：https://pan.baidu.com/s/1hfRfuaIN22yYG_IWSbR7rw?pwd=6666 
+提取码：6666
