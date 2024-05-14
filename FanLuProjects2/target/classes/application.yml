@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mq
+    username: root
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 1000MB
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+  type-aliases-package: com.example.fanluprojects2.entity
+  configuration:
+    map-underscore-to-camel-case: true
+# 分页
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
